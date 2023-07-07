@@ -11,6 +11,11 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles-mobile.css" />
+    <link
+      rel="stylesheet"
+      href="css/styles-desktop.css"
+      media="(min-width: 1440px)"
+    />
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
@@ -18,9 +23,10 @@
       <header>
         <img src="images/logo.svg" alt="Base Apparel" />
       </header>
-      <div>
+      <picture>
+        <source media="(min-width: 1440px)" srcset="images/hero-desktop.jpg" />
         <img src="images/hero-mobile.jpg" alt="Hero" />
-      </div>
+      </picture>
       <section>
         <h1><span>We're</span> coming soon</h1>
         <p>

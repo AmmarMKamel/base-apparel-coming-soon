@@ -24,6 +24,10 @@ main header img {
   width: 32%;
 }
 
+main picture img {
+  max-width: 100%;
+}
+
 main section {
   padding: 0 30px 92px;
 }
