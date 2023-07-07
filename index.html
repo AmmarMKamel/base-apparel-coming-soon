@@ -22,7 +22,7 @@
         <img src="images/hero-mobile.jpg" alt="Hero" />
       </div>
       <section>
-        <h1>We're coming soon</h1>
+        <h1><span>We're</span> coming soon</h1>
         <p>
           Hello fellow shoppers! We're currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
@@ -30,9 +30,13 @@
         </p>
         <form>
           <input type="email" placeholder="Email Address" />
+          <div class="error-icon">
+            <img src="images/icon-error.svg" alt="Error" />
+          </div>
           <button type="submit">
             <img src="images/icon-arrow.svg" alt="Arrow" />
           </button>
+          <small class="error-msg">Please provide a valid email</small>
         </form>
       </section>
     </main>
